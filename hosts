@@ -1,2 +1,9 @@
-node1
-node2
+[all]
+18.189.28.224
+18.219.36.31
+3.137.138.58
+
+[all:vars]
+ansible_ssh_extra_args="-o IdentitiesOnly=yes"
+ansible_ssh_private_key_file=/home/yan/Documents/www/fullcycle/ansible/ansible.pem
+ansible_user=ubuntu
